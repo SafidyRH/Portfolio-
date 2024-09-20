@@ -1,7 +1,10 @@
 import React from 'react'
 import IMG1 from '../../assets/portfolio.jpg'
 import IMG2 from '../../assets/hui0.jpg'
-import IMG3 from '../../assets/memoire.png'
+import img4 from '../../assets/boMadagems.png'
+import img5 from '../../assets/etang.png'
+import img6 from '../../assets/ARGS.png'
+import img7 from '../../assets/jlr.png'
 
 import './portfolio.css'
 
@@ -14,8 +17,8 @@ const Portfolio = () => {
       <div className='container portfolio__container'>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            
-            <img src={IMG1} alt="" />
+
+            <img src={IMG1} alt=""/>
           </div>
           <h3>This Portfolio</h3>
           <div className="portfolio__item-cta">
@@ -24,29 +27,71 @@ const Portfolio = () => {
         </article>
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG2} alt="" srcset="" />
+            <img src={IMG2} alt="" srcSet=""/>
           </div>
           <h3>Hackathon Inter-Universitaire 2023</h3>
           <div className='texta'>
             <p className='text-light'>
               Our team finished in the Top 8 of thirsty teams participants during the Inter-University
-              HACKATHON 2023. 
+              HACKATHON 2023.
             </p>
           </div>
-          
+
         </article>
-        <article className='portfolio__item'>
+
+        <article className='portfolio__item' onClick={() => window.open("https://bo.madagems.bdnhub.com/", "_blank")}>
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="" srcset="" />
+            <img src={img4} alt="" srcSet=""/>
           </div>
-          <h3>Anemometer</h3>
+          <h3>Madagems BO</h3>
           <div className='texta'>
             <p className='text-light'>
-              This electronic device was created during my Licence Thesis. 
-              It is a device that used to measure wind speed.
+              Back office for the administration of an e-commerce application for the sale of precious stones
             </p>
           </div>
-          
+
+        </article>
+        <article className='portfolio__item' onClick={() => window.open("https://pdb.bdnhub.com/", "_blank")}>
+          <div className="portfolio__item-image">
+            <img src={img5} alt="" srcSet=""/>
+          </div>
+          <h3>Etang de puy de Bost</h3>
+          <div className='texta'>
+            <p className='text-light'>
+              Showcase site for a fishing pond with integration of an online reservation system
+            </p>
+          </div>
+
+        </article>
+        <article className='portfolio__item' onClick={() => window.open("https://args.bdnhub.com/", "_blank")}>
+          <div className="portfolio__item-image">
+            <img src={img6} alt="" srcSet=""/>
+          </div>
+          <h3>ARGS</h3>
+          <div className='texta'>
+            <p className='text-light'>
+              Showcase site for an IT development company
+            </p>
+          </div>
+
+        </article>
+        <article className='portfolio__item' onClick={() =>
+            window.open(
+                "https://jlr.bdnhub.com/",
+                "_blank",
+            )
+        }
+        >
+          <div className="portfolio__item-image">
+            <img src={img7} alt="" srcSet=""/>
+          </div>
+          <h3>Jean le Rasta</h3>
+          <div className='texta'>
+            <p className='text-light'>
+              Showcase site for the Jean le Rasta hotel and restaurant in Morondava
+            </p>
+          </div>
+
         </article>
       </div>
 

@@ -87,32 +87,32 @@ const Services = () => {
 
         <article className="service">
            <div className="service__head">
-            <h3>Embedded System Development</h3>
+            <h3>Frontend Development</h3>
            </div>
 
            <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                System Design
+                  Transforming design into code
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                PCB Design
+                But I am not a designer
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                Arduino
+                Programming responsive web pages
               </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>
-                System with Microprocessor
+                React technology
               </p>
             </li>
            </ul>

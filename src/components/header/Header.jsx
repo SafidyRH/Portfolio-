@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/20220102_154324-removebg-preview.png'
+import ME from '../../assets/profil.png'
 import HeaderSocial from './HeaderSocial'
 import Typed from './Typed'
 

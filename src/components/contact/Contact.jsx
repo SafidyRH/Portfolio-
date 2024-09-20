@@ -79,13 +79,6 @@ const Contact = () => {
             <a href="mailto:safidytiavina21@gmail.com">Send a Message</a>
           </article>
           <article className='contact__option'>
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5 className='text-light'>Raoelinirina Safidy</h5>
-            <a href="https://m.me/raoelinirina.safidy">Send a Message</a>
-            
-          </article>
-          <article className='contact__option'>
             <BsLinkedin className='contact__option-icon'/>
             <h4>Linkedin</h4>
             <h5 className='text-light'>Safidy Tiavina</h5>
