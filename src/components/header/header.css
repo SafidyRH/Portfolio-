@@ -77,20 +77,31 @@ header{
 @media screen and (max-width : 1024px) {
     .header__container{
         height: 100vh;
+        align-content: center;
+        justify-content: center;
     }
 }
 
 @media screen and (max-width : 600px) {
     .header {
         height : 30vh;
+        align-content: center;
+        justify-content: center;
+
     }
     .header__container{
         height: 30vh;
+        align-content: center;
+        justify-content: center;
+
     }
     .me {
         width: 10rem;
         height: 10rem;
-        left: calc(50% - 5rem)
+        left: calc(50% - 3rem);
+        align-content: center;
+        justify-content: center;
+
     }    
     .header__socials, .scroll__down{
         display: none;
