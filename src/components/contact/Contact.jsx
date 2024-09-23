@@ -1,7 +1,6 @@
 import React from 'react';
 import './contact.css';
 import {MdOutlineEmail} from 'react-icons/md';
-import { RiMessengerLine } from 'react-icons/ri';
 import { BsLinkedin } from 'react-icons/bs';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
@@ -16,7 +15,7 @@ const Contact = () => {
   const [message, setMessage] = useState('');
 
   const [openAlert, setOpenAlert] = useState(false);
-  const [isChampVide, setIsChampVide] = useState("");
+  const [, setIsChampVide] = useState("");
 
   const [isSuccesMessage, setIsSuccesMessage] = useState(false);
  
@@ -41,11 +40,7 @@ const Contact = () => {
     }
 
     emailjs.sendForm('service_bpiw6sa', 'template_unpnj9i', form.current, 'hmDtRRM2EWJAciaU0')
-    /*emailjs.send('service_bpiw6sa', 'template_unpnj9i', {
-      to_email : toEmail,
-      subject : subject,
-      message : message,
-    })*/
+
       .then((result) => {
           //alert(result.text);
           console.log('Succes', result);
