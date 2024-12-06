@@ -1,8 +1,8 @@
 const About = () => {
   const skills = [
-    { category: 'Frontend', items: ['React', 'TypeScript', 'Tailwind CSS', 'Shadcn', 'Grommet', 'Jotai'] },
-    { category: 'Backend', items: ['Node.js', 'Express', 'Python', 'Django', 'PostgreSQL - Supabase', 'MongoDB'] },
-    { category: 'Tools', items: ['Git', 'Gitlab', 'Github', 'Docker', 'VS Code'] },
+    { id: 1, category: 'Frontend', items: ['React', 'TypeScript', 'Tailwind CSS', 'Shadcn', 'Grommet', 'Jotai'] },
+    { id: 2, category: 'Backend', items: ['Node.js', 'Express', 'Python', 'Django', 'PostgreSQL - Supabase', 'MongoDB'] },
+    { id: 3, category: 'Tools', items: ['Git', 'Gitlab', 'Github', 'Docker', 'VS Code'] },
   ]
 
   return (
@@ -27,7 +27,7 @@ const About = () => {
                 <div className="flex flex-wrap gap-2">
                   {skillGroup.items.map(skill => (
                     <span
-                      key={skill}
+                      key={skillGroup.id}
                       className="px-3 py-1 bg-white/10 rounded-full text-sm"
                     >
                       {skill}
