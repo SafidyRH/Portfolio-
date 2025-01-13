@@ -4,7 +4,7 @@ import madagemBoImg from '../assets/boMadagems.0c300561.png'
 import pdbImg from '../assets/etang.8915b60d.png'
 import argumentsImg from '../assets/ARGS.4951ed63.png'
 import jlrImg from '../assets/jlr.2b9c01ea.png'
-import SIMOIMG from '../assets/SIMO.png'
+import simoImg from '../assets/SIMO.png'
 
 const projects = [
   {
@@ -56,7 +56,7 @@ const projects = [
     id: 7,
     title: 'SIMO',
     description: 'This project was developed for a client who wanted an online platform to showcase their products and services to a wider audience, allowing them to increase their customer base. and also to sell their products online',
-    image: SIMOIMG,
+    image: simoImg,
     technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Component', 'Jotai', 'Supabase', 'PostgreSQL', 'NodeJS'],
     githubUrl: '',
     liveUrl: 'https://simo.bdnhub.com/',
