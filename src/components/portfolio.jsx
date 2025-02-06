@@ -5,6 +5,7 @@ import pdbImg from '../assets/etang.8915b60d.png'
 import argumentsImg from '../assets/ARGS.4951ed63.png'
 import jlrImg from '../assets/jlr.2b9c01ea.png'
 import simoImg from '../assets/SIMO.png'
+import partoImg from '../assets/parto.png'
 
 const projects = [
   {
@@ -60,6 +61,15 @@ const projects = [
     technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Component', 'Jotai', 'Supabase', 'PostgreSQL', 'NodeJS'],
     githubUrl: '',
     liveUrl: 'https://simo.bdnhub.com/',
+  },
+  {
+    id: 8,
+    title: 'Parto',
+    description: 'This project was developed for a client who wanted an online platform to showcase their products and services to a wider audience, allowing them to increase their customer base. This client is a tour guide in region of Majunga in Madagascar',
+    image: partoImg,
+    technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Component', 'Jotai'],
+    githubUrl: '',
+    liveUrl: 'https://parto.bdnhub.com/',
   },
 ]
 
