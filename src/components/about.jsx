@@ -1,7 +1,7 @@
 const About = () => {
   const skills = [
-    { id: 1, category: 'Frontend', items: ['React', 'TypeScript', 'Tailwind CSS', 'Shadcn', 'Grommet', 'Jotai'] },
-    { id: 2, category: 'Backend', items: ['Node.js', 'Express', 'Python', 'Django', 'PostgreSQL - Supabase', 'MongoDB'] },
+    { id: 1, category: 'Frontend', items: ['React', 'NextJS', 'TypeScript', 'Tailwind CSS', 'Shadcn', 'Grommet', 'Jotai'] },
+    { id: 2, category: 'Backend', items: ['Node.js', 'Express', 'NextJS', 'Python', 'Django', 'PostgreSQL - Supabase', 'MongoDB'] },
     { id: 3, category: 'Tools', items: ['Git', 'Gitlab', 'Github', 'Docker', 'VS Code'] },
   ]
 
