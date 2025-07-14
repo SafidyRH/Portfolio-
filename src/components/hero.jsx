@@ -27,6 +27,13 @@ const Hero = () => {
           >
             Learn More
           </Link>
+          <a
+            href="/Raoelinirina-CV_2025-07.pdf"
+            download
+            className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-green-600 hover:bg-green-700 transition-colors"
+          >
+            Download My Resume
+          </a>
         </div>
       </div>
 
