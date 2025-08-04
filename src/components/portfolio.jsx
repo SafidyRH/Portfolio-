@@ -6,6 +6,7 @@ import argumentsImg from '../assets/ARGS.4951ed63.png'
 import jlrImg from '../assets/jlr.2b9c01ea.png'
 import simoImg from '../assets/SIMO.png'
 import partoImg from '../assets/parto.png'
+import dataMaurice from '../assets/data-maurice.png'
 
 const projects = [
   {
@@ -70,6 +71,15 @@ const projects = [
     technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Component', 'Jotai'],
     githubUrl: '',
     liveUrl: 'https://parto.bdnhub.com/',
+  },
+  {
+    id: 9,
+    title: 'Plateforme de Fidélité Voyages (Intégration maquette)',
+    description: 'This integration project is for a client who wants to develop a travel booking platform for company employees.',
+    image: dataMaurice,
+    technologies: ['NextJS App Router', 'React', 'TypeScript', 'Material UI', 'Styled Component', 'TailwindCSS'],
+    githubUrl: '',
+    liveUrl: 'https://data-maurice-srqw.vercel.app/dashboard',
   },
 ]
 
