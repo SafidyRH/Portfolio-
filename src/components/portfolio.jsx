@@ -7,6 +7,7 @@ import jlrImg from '../assets/jlr.2b9c01ea.png'
 import simoImg from '../assets/SIMO.png'
 import partoImg from '../assets/parto.png'
 import dataMaurice from '../assets/data-maurice.png'
+import nextaCrowdfunding from '../assets/screencapture-nexta-crowdfunding-vercel-app-2025-11-03-07_07_07.png'
 
 const projects = [
   {
@@ -81,6 +82,16 @@ const projects = [
     githubUrl: '',
     liveUrl: 'https://data-maurice-srqw.vercel.app/dashboard',
   },
+  {
+  id: 10,
+  title: 'NextA Crowdfunding -  Test Technique',
+  description: 'Plateforme de financement participatif dédiée aux TPME malgaches, permettant de soutenir et de contribuer au développement de projets entrepreneuriaux locaux à travers des campagnes de collecte de fonds.',
+  image: nextaCrowdfunding,
+  technologies: ['Next.js', 'React', 'TypeScript', 'TailwindCSS', 'Supabase'],
+  githubUrl: 'https://github.com/SafidyRH/test-technique-nexta',
+  liveUrl: 'https://nexta-crowdfunding.vercel.app/',
+}
+
 ]
 
 const Portfolio = () => {
