@@ -12,8 +12,9 @@ import nextaCrowdfunding from '../assets/screencapture-nexta-crowdfunding-vercel
 const projects = [
   {
     id: 1,
-    title: 'This Portfolio',
-    description: 'As an inaugural project, this achievement represents my first successful development hosted online, marking a significant milestone in my professional development journey.',
+    title: 'Ce portfolio',
+    type: 'Projet personnel',
+    description: 'Un portfolio personnel reconstruit comme une vitrine guidee par un systeme de design, au service de la vision produit et de l execution front-end.',
     image: portfolioImg,
     technologies: ['React', 'JavaScript', 'Tailwind'],
     githubUrl: 'https://github.com',
@@ -22,7 +23,8 @@ const projects = [
   {
     id: 3,
     title: 'Madagem Bo',
-    description: 'This project was developed for a client who wanted an online platform to manage their products and services',
+    type: 'Plateforme client',
+    description: 'Un produit back-office concu pour aider un client a gerer ses produits et services avec un parcours administratif plus clair.',
     image: madagemBoImg,
     technologies: ['React', 'TypeScript', 'Grommet UI', 'Jotai'],
     githubUrl: '',
@@ -31,108 +33,133 @@ const projects = [
   {
     id: 4,
     title: 'Etang de Puy de Bost',
-    description: 'This project was developed for a client who wanted an online platform to showcase their products and services to a wider audience, allowing them to increase their customer base.',
+    type: 'Site vitrine',
+    description: 'Un site marketing concu pour presenter des services avec plus de credibilite, de portee et de clarte visuelle.',
     image: pdbImg,
-    technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Component', 'Jotai'],
+    technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Components', 'Jotai'],
     githubUrl: '',
     liveUrl: 'https://pdb.bdnhub.com/',
   },
   {
     id: 5,
     title: 'Args',
-    description: 'This project was developed to Showcase a web site for an IT development company',
+    type: 'Site d entreprise',
+    description: 'Un site vitrine pour une entreprise IT, qui equilibre positionnement technique et confiance visuelle.',
     image: argumentsImg,
-    technologies: ['React', 'TypeScript', 'Grommet UI', 'Grommet UI', 'Jotai', 'ThreeJS'],
+    technologies: ['React', 'TypeScript', 'Grommet UI', 'Jotai', 'Three.js'],
     githubUrl: '',
     liveUrl: 'https://args.bdnhub.com/',
   },
   {
     id: 6,
     title: 'Jean Le Rasta',
-    description: 'This project was developed for a client, Jean le Rasta in Morondava Madagascar, who wanted an online platform to showcase their products and services to a wider audience, allowing them to increase their customer base.',
+    type: 'Site client',
+    description: 'Une plateforme promotionnelle de marque concue pour un client base a Madagascar souhaitant gagner en visibilite et en audience.',
     image: jlrImg,
-    technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Component', 'Jotai'],
+    technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Components', 'Jotai'],
     githubUrl: '',
     liveUrl: 'https://jlr.bdnhub.com/',
   },
   {
     id: 7,
     title: 'SIMO',
-    description: 'This project was developed for a client who wanted an online platform to showcase their products and services to a wider audience, allowing them to increase their customer base. and also to sell their products online',
+    type: 'Plateforme e-commerce',
+    description: 'Une experience de vitrine et de commerce en ligne qui combine decouverte produit, narration de marque et parcours transactionnels.',
     image: simoImg,
-    technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Component', 'Jotai', 'Supabase', 'PostgreSQL', 'NodeJS'],
+    technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Components', 'Jotai', 'Supabase', 'PostgreSQL', 'Node.js'],
     githubUrl: '',
     liveUrl: 'https://simo.bdnhub.com/',
   },
   {
     id: 8,
     title: 'Parto',
-    description: 'This project was developed for a client who wanted an online platform to showcase their products and services to a wider audience, allowing them to increase their customer base. This client is a tour guide in region of Majunga in Madagascar',
+    type: 'Site tourisme',
+    description: 'Un site vitrine oriente tourisme cree pour un guide a Majunga afin de mieux presenter ses services et convertir les visiteurs en contacts.',
     image: partoImg,
-    technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Component', 'Jotai'],
+    technologies: ['React', 'TypeScript', 'Grommet UI', 'Styled Components', 'Jotai'],
     githubUrl: '',
     liveUrl: 'https://parto.bdnhub.com/',
   },
   {
     id: 9,
-    title: 'Plateforme de Fidélité Voyages (Intégration maquette)',
-    description: 'This integration project is for a client who wants to develop a travel booking platform for company employees.',
+    title: 'Plateforme de fidelite voyage',
+    type: 'Integration UI',
+    description: 'Un projet d integration front-end pour une experience de reservation de voyages dediee aux employes d entreprise.',
     image: dataMaurice,
-    technologies: ['NextJS App Router', 'React', 'TypeScript', 'Material UI', 'Styled Component', 'TailwindCSS'],
+    technologies: ['Next.js App Router', 'React', 'TypeScript', 'Material UI', 'Styled Components', 'Tailwind CSS'],
     githubUrl: '',
     liveUrl: 'https://data-maurice-srqw.vercel.app/dashboard',
   },
   {
-  id: 10,
-  title: 'NextA Crowdfunding -  Test Technique',
-  description: 'Plateforme de financement participatif dédiée aux TPME malgaches, permettant de soutenir et de contribuer au développement de projets entrepreneuriaux locaux à travers des campagnes de collecte de fonds.',
-  image: nextaCrowdfunding,
-  technologies: ['Next.js', 'React', 'TypeScript', 'TailwindCSS', 'Supabase'],
-  githubUrl: 'https://github.com/SafidyRH/test-technique-nexta',
-  liveUrl: 'https://nexta-crowdfunding.vercel.app/',
-}
-
+    id: 10,
+    title: 'NextA Crowdfunding',
+    type: 'Test technique',
+    description: 'Un test technique pour une plateforme de financement participatif orientee vers les petites entreprises malgaches et les initiatives entrepreneuriales locales.',
+    image: nextaCrowdfunding,
+    technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+    githubUrl: 'https://github.com/SafidyRH/test-technique-nexta',
+    liveUrl: 'https://nexta-crowdfunding.vercel.app/',
+  },
 ]
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="py-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">My Work</h2>
+    <section id="portfolio" className="section-shell">
+      <div className="section-frame">
+        <div className="mb-10 grid gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+          <div className="space-y-4">
+            <p className="section-kicker">Projets selectionnes</p>
+            <h2 className="section-title">Des projets construits autour d&apos;une UI claire, d&apos;une architecture pragmatique et de vraies contraintes de livraison.</h2>
+          </div>
+          <p className="section-copy">
+            Ces projets couvrent portfolio personnel, plateformes clients, sites d&apos;entreprise et tests techniques.
+            Leur point commun : des interfaces lisibles, une implementation fiable et un rendu soigné.
+          </p>
+        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
           {projects.map(project => (
-            <div
+            <article
               key={project.id}
-              className="bg-white/5 rounded-xl overflow-hidden hover:transform hover:scale-105 transition-transform duration-300"
+              className="group overflow-hidden rounded-[26px] border border-[color:var(--color-border-default)] bg-[linear-gradient(180deg,rgba(255,255,255,0.05),rgba(255,255,255,0.02))]"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-white/60 mb-4">{project.description}</p>
-                <div className="flex flex-wrap gap-2 mb-4">
+              <div className="overflow-hidden border-b border-[color:var(--color-border-default)]">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="h-56 w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+                />
+              </div>
+
+              <div className="space-y-5 p-6">
+                <div>
+                  <p className="mb-2 text-xs uppercase tracking-[0.25em] text-[color:var(--color-text-tertiary)]">
+                    {project.type}
+                  </p>
+                  <h3 className="text-xl font-semibold">{project.title}</h3>
+                </div>
+
+                <p className="min-h-[96px] text-sm leading-6 text-[color:var(--color-text-tertiary)]">
+                  {project.description}
+                </p>
+
+                <div className="flex flex-wrap gap-2">
                   {project.technologies.map(tech => (
-                    <span
-                      key={tech}
-                      className="px-2 py-1 bg-white/10 rounded-full text-xs"
-                    >
+                    <span key={tech} className="pill text-xs">
                       {tech}
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-4">
+
+                <div className="flex flex-wrap gap-3 pt-1">
                   {project.githubUrl && (
                     <a
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm hover:text-blue-400 transition-colors"
+                      className="panel-link"
                     >
-                      <Github className="w-4 h-4" />
+                      <Github className="h-4 w-4" />
                       Code
                     </a>
                   )}
@@ -141,15 +168,15 @@ const Portfolio = () => {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sm hover:text-blue-400 transition-colors"
+                      className="panel-link"
                     >
-                      <Link className="w-4 h-4" />
-                      Live Demo
+                      <Link className="h-4 w-4" />
+                      Aperçu
                     </a>
                   )}
                 </div>
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>

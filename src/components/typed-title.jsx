@@ -6,12 +6,11 @@ const MyTitleComponent = () => {
 
   useEffect(() => {
     const typed = new Typed(element.current, {
-      strings: ['Full-Stack Developer'],
+      strings: ['Developpeur Full-Stack'],
       typeSpeed: 100,
       backSpeed: 50,
       backDelay: 1000,
       loop: true,
-
     })
 
     return () => {
@@ -20,9 +19,10 @@ const MyTitleComponent = () => {
   }, [])
 
   return (
-    <div className="App">
+    <div>
       <span ref={element} />
     </div>
   )
 }
+
 export default MyTitleComponent
