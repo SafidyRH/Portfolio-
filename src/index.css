@@ -171,6 +171,12 @@ body {
     background: rgb(255 255 255 / 0.04);
   }
 
+  .portfolio-loading {
+    @apply h-80 w-full animate-pulse rounded-[26px] border;
+    border-color: var(--color-border-default);
+    background: rgb(255 255 255 / 0.04);
+  }
+
   .hero-accent-word {
     font-family: Georgia, 'Times New Roman', serif;
     font-style: italic;
