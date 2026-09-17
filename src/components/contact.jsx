@@ -21,6 +21,13 @@ const socialLinks = [
   },
 ]
 
+const inputClassName = hasError => [
+  'w-full rounded-2xl border bg-black/30 px-4 py-3 text-sm text-[color:var(--color-text-primary)] placeholder:text-[color:var(--color-text-tertiary)]',
+  hasError
+    ? 'border-[color:var(--color-danger)]'
+    : 'border-[color:var(--color-border-default)]',
+].join(' ')
+
 const ContactForm = () => {
   const formReference = useRef(null)
   const [formData, setFormData] = useState({
@@ -103,13 +110,6 @@ const ContactForm = () => {
       }))
     }
   }
-
-  const inputClassName = hasError => [
-    'w-full rounded-2xl border bg-black/30 px-4 py-3 text-sm text-[color:var(--color-text-primary)] placeholder:text-[color:var(--color-text-tertiary)]',
-    hasError
-      ? 'border-[color:var(--color-danger)]'
-      : 'border-[color:var(--color-border-default)]',
-  ].join(' ')
 
   return (
     <div className="section-frame">
